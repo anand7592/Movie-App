@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link, NavLink } from 'react-router-dom'; // <--- Change Link to NavLink
 import { useMovieContext } from '../context/MovieContext';
 
