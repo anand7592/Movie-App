@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# The Redirect Magic
+[[redirects]]
+  from = "/api/movies"
+  to = "/.netlify/functions/movie"
+  status = 200
