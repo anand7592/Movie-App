@@ -1,5 +1,4 @@
 // netlify/functions/movie.js
-import 'dotenv/config';
 import axios from 'axios';
 
 export const handler = async function (event, context) {
